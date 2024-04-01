@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5520B42BBB2FF600C6C63F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5520B32BBB2FF600C6C63F /* WelcomeView.swift */; };
+		3A5520B82BBB313700C6C63F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5520B72BBB313700C6C63F /* Launch Screen.storyboard */; };
 		3A6099EA2BAA6A3400FF80EA /* nuhraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6099E92BAA6A3400FF80EA /* nuhraApp.swift */; };
-		3A6099EC2BAA6A3400FF80EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6099EB2BAA6A3400FF80EA /* ContentView.swift */; };
 		3A6099EE2BAA6A3500FF80EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6099ED2BAA6A3500FF80EA /* Assets.xcassets */; };
 		3A6099F12BAA6A3500FF80EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6099F02BAA6A3500FF80EA /* Preview Assets.xcassets */; };
 		3A6099FB2BAA6A3500FF80EA /* nuhraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6099FA2BAA6A3500FF80EA /* nuhraTests.swift */; };
@@ -42,9 +43,11 @@
 		3A5520AA2BBB2A2800C6C63F /* Airbnb-Cereald-Medium (1).otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Airbnb-Cereald-Medium (1).otf"; path = "../../../../FontsNuhra/Airbnb-Cereald-Medium (1).otf"; sourceTree = "<group>"; };
 		3A5520AB2BBB2A2800C6C63F /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Regular.ttf"; path = "../../../../FontsNuhra/Gilroy-Regular.ttf"; sourceTree = "<group>"; };
 		3A5520AC2BBB2A2800C6C63F /* HKGrotesk-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Bold.otf"; path = "../../../../FontsNuhra/HKGrotesk-Bold.otf"; sourceTree = "<group>"; };
+		3A5520AD2BBB2D0C00C6C63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3A5520B32BBB2FF600C6C63F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3A5520B72BBB313700C6C63F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3A6099E62BAA6A3400FF80EA /* nuhra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nuhra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6099E92BAA6A3400FF80EA /* nuhraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuhraApp.swift; sourceTree = "<group>"; };
-		3A6099EB2BAA6A3400FF80EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A6099ED2BAA6A3500FF80EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6099F02BAA6A3500FF80EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A6099F62BAA6A3500FF80EA /* nuhraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nuhraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +82,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5520AE2BBB2EAC00C6C63F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A5520B22BBB2FD100C6C63F /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A5520AF2BBB2EC000C6C63F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A5520B02BBB2ED200C6C63F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A5520B12BBB2F2E00C6C63F /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		3A5520B22BBB2FD100C6C63F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3A5520B32BBB2FF600C6C63F /* WelcomeView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		3A6099DD2BAA6A3400FF80EA = {
 			isa = PBXGroup;
 			children = (
@@ -102,11 +142,16 @@
 		3A6099E82BAA6A3400FF80EA /* nuhra */ = {
 			isa = PBXGroup;
 			children = (
-				3A609A132BBB193700FF80EA /* font */,
+				3A5520B12BBB2F2E00C6C63F /* UICommon */,
+				3A5520B02BBB2ED200C6C63F /* ViewModel */,
+				3A5520AF2BBB2EC000C6C63F /* Model */,
+				3A5520AE2BBB2EAC00C6C63F /* View */,
+				3A5520AD2BBB2D0C00C6C63F /* Info.plist */,
+				3A609A132BBB193700FF80EA /* Font */,
 				3A6099E92BAA6A3400FF80EA /* nuhraApp.swift */,
-				3A6099EB2BAA6A3400FF80EA /* ContentView.swift */,
 				3A6099ED2BAA6A3500FF80EA /* Assets.xcassets */,
 				3A6099EF2BAA6A3500FF80EA /* Preview Content */,
+				3A5520B72BBB313700C6C63F /* Launch Screen.storyboard */,
 			);
 			path = nuhra;
 			sourceTree = "<group>";
@@ -136,7 +181,7 @@
 			path = nuhraUITests;
 			sourceTree = "<group>";
 		};
-		3A609A132BBB193700FF80EA /* font */ = {
+		3A609A132BBB193700FF80EA /* Font */ = {
 			isa = PBXGroup;
 			children = (
 				3A5520AA2BBB2A2800C6C63F /* Airbnb-Cereald-Medium (1).otf */,
@@ -148,7 +193,7 @@
 				3A5520A52BBB2A2800C6C63F /* HKGrotesk-Regular.otf */,
 				3A5520A92BBB2A2800C6C63F /* Sveningsson.ttf */,
 			);
-			path = font;
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5520B82BBB313700C6C63F /* Launch Screen.storyboard in Resources */,
 				3A6099F12BAA6A3500FF80EA /* Preview Assets.xcassets in Resources */,
 				3A6099EE2BAA6A3500FF80EA /* Assets.xcassets in Resources */,
 			);
@@ -281,8 +327,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6099EC2BAA6A3400FF80EA /* ContentView.swift in Sources */,
 				3A6099EA2BAA6A3400FF80EA /* nuhraApp.swift in Sources */,
+				3A5520B42BBB2FF600C6C63F /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,11 +494,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"nuhra/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nuhra/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,9 +509,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.nuhra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -476,11 +528,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"nuhra/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nuhra/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,9 +543,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = app.nuhra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
