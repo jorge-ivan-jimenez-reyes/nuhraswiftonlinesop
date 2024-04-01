@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A5520B42BBB2FF600C6C63F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5520B32BBB2FF600C6C63F /* WelcomeView.swift */; };
 		3A5520B82BBB313700C6C63F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5520B72BBB313700C6C63F /* Launch Screen.storyboard */; };
+		3A5520BB2BBB401700C6C63F /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5520BA2BBB401700C6C63F /* UIExtension.swift */; };
 		3A6099EA2BAA6A3400FF80EA /* nuhraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6099E92BAA6A3400FF80EA /* nuhraApp.swift */; };
 		3A6099EE2BAA6A3500FF80EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6099ED2BAA6A3500FF80EA /* Assets.xcassets */; };
 		3A6099F12BAA6A3500FF80EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6099F02BAA6A3500FF80EA /* Preview Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		3A5520AD2BBB2D0C00C6C63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3A5520B32BBB2FF600C6C63F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3A5520B72BBB313700C6C63F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3A5520BA2BBB401700C6C63F /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		3A6099E62BAA6A3400FF80EA /* nuhra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nuhra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6099E92BAA6A3400FF80EA /* nuhraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuhraApp.swift; sourceTree = "<group>"; };
 		3A6099ED2BAA6A3500FF80EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		3A5520B12BBB2F2E00C6C63F /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
+				3A5520BA2BBB401700C6C63F /* UIExtension.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A6099EA2BAA6A3400FF80EA /* nuhraApp.swift in Sources */,
+				3A5520BB2BBB401700C6C63F /* UIExtension.swift in Sources */,
 				3A5520B42BBB2FF600C6C63F /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
