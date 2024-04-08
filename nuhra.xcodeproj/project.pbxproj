@@ -36,16 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A5520A52BBB2A2800C6C63F /* HKGrotesk-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Regular.otf"; path = "../../../../FontsNuhra/HKGrotesk-Regular.otf"; sourceTree = "<group>"; };
-		3A5520A62BBB2A2800C6C63F /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Medium.ttf"; path = "../../../../FontsNuhra/Gilroy-Medium.ttf"; sourceTree = "<group>"; };
-		3A5520A72BBB2A2800C6C63F /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-SemiBold.ttf"; path = "../../../../FontsNuhra/Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
-		3A5520A82BBB2A2800C6C63F /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Bold.ttf"; path = "../../../../FontsNuhra/Gilroy-Bold.ttf"; sourceTree = "<group>"; };
-		3A5520A92BBB2A2800C6C63F /* Sveningsson.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Sveningsson.ttf; path = ../../../../FontsNuhra/Sveningsson.ttf; sourceTree = "<group>"; };
-		3A5520AA2BBB2A2800C6C63F /* Airbnb-Cereald-Medium (1).otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Airbnb-Cereald-Medium (1).otf"; path = "../../../../FontsNuhra/Airbnb-Cereald-Medium (1).otf"; sourceTree = "<group>"; };
-		3A5520AB2BBB2A2800C6C63F /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Regular.ttf"; path = "../../../../FontsNuhra/Gilroy-Regular.ttf"; sourceTree = "<group>"; };
-		3A5520AC2BBB2A2800C6C63F /* HKGrotesk-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Bold.otf"; path = "../../../../FontsNuhra/HKGrotesk-Bold.otf"; sourceTree = "<group>"; };
 		3A5520AD2BBB2D0C00C6C63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		3A5520B32BBB2FF600C6C63F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3A5520B32BBB2FF600C6C63F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = /Users/YORTCH/Desktop/NUHRA/nuhra/nuhra/View/Login/WelcomeView.swift; sourceTree = "<absolute>"; };
 		3A5520B72BBB313700C6C63F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3A5520BA2BBB401700C6C63F /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		3A6099E62BAA6A3400FF80EA /* nuhra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nuhra.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +49,14 @@
 		3A609A002BAA6A3500FF80EA /* nuhraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nuhraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A609A042BAA6A3500FF80EA /* nuhraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuhraUITests.swift; sourceTree = "<group>"; };
 		3A609A062BAA6A3500FF80EA /* nuhraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuhraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AAE847F2BC490B300110F11 /* HKGrotesk-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Regular.otf"; path = "../../../../font/HKGrotesk-Regular.otf"; sourceTree = "<group>"; };
+		3AAE84802BC490B300110F11 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Medium.ttf"; path = "../../../../font/Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		3AAE84812BC490B300110F11 /* Sveningsson.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Sveningsson.ttf; path = ../../../../font/Sveningsson.ttf; sourceTree = "<group>"; };
+		3AAE84822BC490B300110F11 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Bold.ttf"; path = "../../../../font/Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		3AAE84832BC490B300110F11 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-SemiBold.ttf"; path = "../../../../font/Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		3AAE84842BC490B300110F11 /* HKGrotesk-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Bold.otf"; path = "../../../../font/HKGrotesk-Bold.otf"; sourceTree = "<group>"; };
+		3AAE84852BC490B300110F11 /* Airbnb-Cereald-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Airbnb-Cereald-Medium.otf"; path = "../../../../font/Airbnb-Cereald-Medium.otf"; sourceTree = "<group>"; };
+		3AAE84862BC490B300110F11 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Regular.ttf"; path = "../../../../font/Gilroy-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,14 +187,14 @@
 		3A609A132BBB193700FF80EA /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				3A5520AA2BBB2A2800C6C63F /* Airbnb-Cereald-Medium (1).otf */,
-				3A5520A82BBB2A2800C6C63F /* Gilroy-Bold.ttf */,
-				3A5520A62BBB2A2800C6C63F /* Gilroy-Medium.ttf */,
-				3A5520AB2BBB2A2800C6C63F /* Gilroy-Regular.ttf */,
-				3A5520A72BBB2A2800C6C63F /* Gilroy-SemiBold.ttf */,
-				3A5520AC2BBB2A2800C6C63F /* HKGrotesk-Bold.otf */,
-				3A5520A52BBB2A2800C6C63F /* HKGrotesk-Regular.otf */,
-				3A5520A92BBB2A2800C6C63F /* Sveningsson.ttf */,
+				3AAE84852BC490B300110F11 /* Airbnb-Cereald-Medium.otf */,
+				3AAE84822BC490B300110F11 /* Gilroy-Bold.ttf */,
+				3AAE84802BC490B300110F11 /* Gilroy-Medium.ttf */,
+				3AAE84862BC490B300110F11 /* Gilroy-Regular.ttf */,
+				3AAE84832BC490B300110F11 /* Gilroy-SemiBold.ttf */,
+				3AAE84842BC490B300110F11 /* HKGrotesk-Bold.otf */,
+				3AAE847F2BC490B300110F11 /* HKGrotesk-Regular.otf */,
+				3AAE84812BC490B300110F11 /* Sveningsson.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";

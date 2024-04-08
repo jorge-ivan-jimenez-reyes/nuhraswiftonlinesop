@@ -4,23 +4,20 @@
 //
 //  Created by Jorge Ivan JImenez Reyes on 01/04/24.
 //
-
 import SwiftUI
 
 enum Gilroy: String {
     case regular = "Gilroy-Regular"
     case medium = "Gilroy-Medium"
-    case semibold = "Gilroy-SemiBold"
+    case semiBold = "Gilroy-SemiBold"
     case bold = "Gilroy-Bold"
 }
 
 extension Font {
-    
     static func customfont(_ font: Gilroy, fontSize: CGFloat) -> Font {
-        custom(font.rawValue, size: fontSize)
+        Font.custom(font.rawValue, size: fontSize)
     }
 }
-
 extension CGFloat {
     
     static var screenWidth: Double {

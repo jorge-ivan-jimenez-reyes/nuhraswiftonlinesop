@@ -17,11 +17,12 @@ struct WelcomeView: View {
             
             VStack{
                 Spacer()
-                
                 Text("Bienvenidos a nuestra Tienda Virtual")
-                    .font(.customfont( .semibold , fontSize: 48))
+                    .font(.customfont(.semiBold, fontSize: 35)) // Asegúrate de que `.medium` se mapea a "Gilroy-Medium" correctamente.
+
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
+                    .padding(.bottom ,100)
             }
             .padding(.horizontal , 20)
         }
