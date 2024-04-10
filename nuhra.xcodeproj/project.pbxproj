@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A5520B42BBB2FF600C6C63F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5520B32BBB2FF600C6C63F /* WelcomeView.swift */; };
 		3A5520B82BBB313700C6C63F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5520B72BBB313700C6C63F /* Launch Screen.storyboard */; };
 		3A5520BB2BBB401700C6C63F /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5520BA2BBB401700C6C63F /* UIExtension.swift */; };
 		3A6099EA2BAA6A3400FF80EA /* nuhraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6099E92BAA6A3400FF80EA /* nuhraApp.swift */; };
@@ -16,6 +15,7 @@
 		3A6099FB2BAA6A3500FF80EA /* nuhraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6099FA2BAA6A3500FF80EA /* nuhraTests.swift */; };
 		3A609A052BAA6A3500FF80EA /* nuhraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A609A042BAA6A3500FF80EA /* nuhraUITests.swift */; };
 		3A609A072BAA6A3500FF80EA /* nuhraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A609A062BAA6A3500FF80EA /* nuhraUITestsLaunchTests.swift */; };
+		3A6826462BC6183500BE67D5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6826452BC6183500BE67D5 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		3A5520AD2BBB2D0C00C6C63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		3A5520B32BBB2FF600C6C63F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = /Users/YORTCH/Desktop/NUHRA/nuhra/nuhra/View/Login/WelcomeView.swift; sourceTree = "<absolute>"; };
 		3A5520B72BBB313700C6C63F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3A5520BA2BBB401700C6C63F /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 		3A6099E62BAA6A3400FF80EA /* nuhra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nuhra.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		3A609A002BAA6A3500FF80EA /* nuhraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nuhraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A609A042BAA6A3500FF80EA /* nuhraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuhraUITests.swift; sourceTree = "<group>"; };
 		3A609A062BAA6A3500FF80EA /* nuhraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuhraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A6826452BC6183500BE67D5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3AAE847F2BC490B300110F11 /* HKGrotesk-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HKGrotesk-Regular.otf"; path = "../../../../font/HKGrotesk-Regular.otf"; sourceTree = "<group>"; };
 		3AAE84802BC490B300110F11 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Medium.ttf"; path = "../../../../font/Gilroy-Medium.ttf"; sourceTree = "<group>"; };
 		3AAE84812BC490B300110F11 /* Sveningsson.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Sveningsson.ttf; path = ../../../../font/Sveningsson.ttf; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		3A5520B22BBB2FD100C6C63F /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				3A5520B32BBB2FF600C6C63F /* WelcomeView.swift */,
+				3A6826452BC6183500BE67D5 /* WelcomeView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -331,8 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A6099EA2BAA6A3400FF80EA /* nuhraApp.swift in Sources */,
+				3A6826462BC6183500BE67D5 /* WelcomeView.swift in Sources */,
 				3A5520BB2BBB401700C6C63F /* UIExtension.swift in Sources */,
-				3A5520B42BBB2FF600C6C63F /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
