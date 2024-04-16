@@ -18,11 +18,10 @@ struct WelcomeView: View {
                 
                 
                 NavigationLink{
-                    
+                    SigninView()
                 }label: {
                     RoundBotton(title: "EMPEZAR"){
-                        
-                    } <#code#>
+                    }
                 }
             
                 Spacer().frame(height: 60)
@@ -42,6 +41,7 @@ struct WelcomeView_Previews: PreviewProvider {
         NavigationView{
             WelcomeView()
         }
+         
         
     }
 }
