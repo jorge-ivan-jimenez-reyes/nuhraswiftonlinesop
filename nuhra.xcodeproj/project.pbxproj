@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A13F61D2BCDF5CA00F2FD18 /* RoundBotton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13F61C2BCDF5CA00F2FD18 /* RoundBotton.swift */; };
+		3A13F61F2BCDF76C00F2FD18 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A13F61E2BCDF76C00F2FD18 /* SigninView.swift */; };
 		3A5520B82BBB313700C6C63F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5520B72BBB313700C6C63F /* Launch Screen.storyboard */; };
 		3A5520BB2BBB401700C6C63F /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5520BA2BBB401700C6C63F /* UIExtension.swift */; };
 		3A6099EA2BAA6A3400FF80EA /* nuhraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6099E92BAA6A3400FF80EA /* nuhraApp.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A13F61C2BCDF5CA00F2FD18 /* RoundBotton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBotton.swift; sourceTree = "<group>"; };
+		3A13F61E2BCDF76C00F2FD18 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
 		3A5520AD2BBB2D0C00C6C63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3A5520B72BBB313700C6C63F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3A5520BA2BBB401700C6C63F /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				3A5520BA2BBB401700C6C63F /* UIExtension.swift */,
+				3A13F61C2BCDF5CA00F2FD18 /* RoundBotton.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				3A6826452BC6183500BE67D5 /* WelcomeView.swift */,
+				3A13F61E2BCDF76C00F2FD18 /* SigninView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -332,6 +338,8 @@
 			files = (
 				3A6099EA2BAA6A3400FF80EA /* nuhraApp.swift in Sources */,
 				3A6826462BC6183500BE67D5 /* WelcomeView.swift in Sources */,
+				3A13F61F2BCDF76C00F2FD18 /* SigninView.swift in Sources */,
+				3A13F61D2BCDF5CA00F2FD18 /* RoundBotton.swift in Sources */,
 				3A5520BB2BBB401700C6C63F /* UIExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
