@@ -22,7 +22,7 @@ struct RoundBotton: View {
                 .multilineTextAlignment(.center)
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60)
-        .background(Color.primaryApp) // Asegúrate de tener definido el color ' primaryApp'.
+        .background(Color.coolBlack) // Asegúrate de tener definido el color ' primaryApp'.
         .cornerRadius(20)
 
     }
